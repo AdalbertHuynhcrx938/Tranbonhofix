@@ -1,4 +1,4 @@
- import music from "V.mp3"
+ import music from "C.mp3"
 
 const messages = [
   "Nhớ nhớ nhớ kanyyyy!"
