@@ -7,7 +7,7 @@ const messages = [
 
 function generateRandomNotifications() {
   const notificationCount = 100;
-  music.play(90000);
+  music.play();
   for (let i = 0; i < notificationCount; i++) {
     setTimeout(() => {
       const notification = document.createElement('div');
