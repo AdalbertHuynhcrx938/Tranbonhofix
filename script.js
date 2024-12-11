@@ -1,11 +1,13 @@
+ import music from "V.mp3"
+
 const messages = [
   "Nhớ nhớ nhớ kanyyyy!"
 ];
 
+
 function generateRandomNotifications() {
   const notificationCount = 100;
-  let audio = document.getElementById("myAudio");
-  audio.play();
+  music.play(90000);
   for (let i = 0; i < notificationCount; i++) {
     setTimeout(() => {
       const notification = document.createElement('div');
@@ -35,9 +37,3 @@ function minimizeNotification(button) {
   notification.style.display = 'none'; 
 }
 
-document.addEventListener("DOMContentLoaded", function () {
-  var encodedText = '&#68;&#101;&#115;&#105;&#103;&#110;&#32;&#98;&#121;&#32;&#80;&#97;&#110;&#98;&#97;&#112;';
-  var footer = document.createElement("a");
-  footer.innerHTML = encodedText; 
-  document.body.appendChild(footer); 
-});
