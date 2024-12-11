@@ -4,7 +4,8 @@ const messages = [
 
 function generateRandomNotifications() {
   const notificationCount = 100;
-
+  let audio = document.getElementById("myAudio");
+  audio.play();
   for (let i = 0; i < notificationCount; i++) {
     setTimeout(() => {
       const notification = document.createElement('div');
