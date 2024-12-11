@@ -1,4 +1,4 @@
- import music from "C.mp3"
+ 
 
 const messages = [
   "Nhớ nhớ nhớ kanyyyy!"
@@ -7,8 +7,6 @@ const messages = [
 
 function generateRandomNotifications() {
   const notificationCount = 100;
-  let song = music;
-  song.play(90000);
   for (let i = 0; i < notificationCount; i++) {
     setTimeout(() => {
       const notification = document.createElement('div');
